@@ -3,18 +3,26 @@ body{
     padding: 0;  
     text-decoration: none;
 }
+h1{
+    font-family:normal;
+    font-weight:900px;
+}
+h4{
+     font-family:normal;
+    font-weight:600;
+}
+
 header{
     width:100%;
-    height:655px;
+    height:673px;
     position:relative;
-    object-fit:fill;
+    background-image:url('https://static.vecteezy.com/system/resources/previews/034/255/546/non_2x/spaghetti-with-meat-sauce-and-vegetables-on-a-wooden-table-ai-generated-free-photo.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
 }
-.image1{
-    position:absolute;
-    top: -20vh;
-    left: -20vh;
-    z-index: -1;
-}
+
 .home{
     display:flex;
     flex-direction:column;
@@ -23,6 +31,19 @@ header{
     color:white;
 }
 .logo{
-    margin-bottom:50vh;
+    margin-top:50vh;
     width: 20vw;
+}
+
+.download1{
+    transition:transform 0.5s;
+}
+.download1:hover{
+    transform:scale(1.1);
+}
+.download2{
+    transition:transform 0.5s;
+}
+.download2:hover{
+    transform:scale(1.1);
 }
