@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;  
     text-decoration: none;
+    
 }
 h1{
     font-family:normal;
@@ -14,7 +15,7 @@ h4{
 
 header{
     width:100%;
-    height:673px;
+    height:700px;
     position:relative;
     background-image:url('https://static.vecteezy.com/system/resources/previews/034/255/546/non_2x/spaghetti-with-meat-sauce-and-vegetables-on-a-wooden-table-ai-generated-free-photo.jpg');
     background-size:cover;
@@ -34,7 +35,6 @@ header{
     margin-top:50vh;
     width: 20vw;
 }
-
 .download1{
     transition:transform 0.5s;
 }
@@ -46,4 +46,28 @@ header{
 }
 .download2:hover{
     transform:scale(1.1);
+}
+.secondpage{
+    position:relative;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondpage h1{
+    font-size:2.5rem;
+    font-weight:700;
+    color:#f65364;
+    margin-bottom:16px;
+}
+.secondpage p{
+    font-size:16px;
+    color:#555;
+    max-width:500px;
+    margin:auto;
+    margin: auto;
+    line-height: 1.6;
 }
