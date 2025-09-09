@@ -55,13 +55,13 @@ header{
     align-items:center;
     text-align:center;
     padding:32px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .secondpage h1{
     font-size:2.5rem;
     font-weight:700;
     color:#f65364;
     margin-bottom:16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .secondpage p{
     font-size:16px;
@@ -70,4 +70,47 @@ header{
     margin:auto;
     margin: auto;
     line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leaf{
+    position:absolute;
+    width:35px;
+    top:5%;
+    left:30%;
+
+}
+.momos{
+    position:absolute;
+    width:235px;
+    top:10%;
+    right:15%;
+
+}
+.burger{
+    position:absolute;
+    width:250px;
+    bottom:25%;
+    left:10%;
+
+}
+.tomato1{
+    position:absolute;
+    width:35px;
+    bottom:15%;
+    left:20%;
+
+}
+.tomato2{
+    position:absolute;
+    width:35px;
+    bottom:50%;
+    right:15%;
+
+}
+.pizza{
+    position:absolute;
+    width:235px;
+    bottom:10%;
+    right:15%;
+
 }
